@@ -14,7 +14,7 @@ genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-flash-latest')
 
 
-st.set_page_config(page_title="Юридический Консультант", page_icon="⚖️", layout="wide")
+st.set_page_config(page_title="🐾Кошичкина Юстицыя🐾", page_icon="🐾", layout="wide")
 
 # --- 2. SUPREME INTERFACE STYLING ---
 st.markdown("""
@@ -58,7 +58,7 @@ def load_all_standards():
 
 # --- 4. SIDEBAR & TOOLS ---
 with st.sidebar:
-    st.title("⚖️ Юридический Консультант")
+    st.title("🐾Кошичкина Юстицыя🐾")
     st.caption("Omniscient Final Edition | 2026")
     st.divider()
     
