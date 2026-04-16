@@ -9,7 +9,7 @@ import PyPDF2
 
 # --- 1. НАСТРОЙКА ИИ ---
 # Вставь сюда свой ключ из Google AI Studio
-genai.configure(api_key=st.secrets["GOOGLE_API_KEY])
+genai.configure(api_key=st.secrets["GOOGLE_API_KEY"])
 model = genai.GenerativeModel('gemini-flash-latest')
 
 
